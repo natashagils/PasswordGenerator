@@ -14,7 +14,7 @@ function writePassword() {
 
 // User prompts to ask the conditions for the password generated
 function generatePassword() {
-  var passwordLength = prompt("Please enter the number of characters you want for you new password.  Must be betwee 12 and 128.");
+  var passwordLength = prompt("Please enter the number of characters you want for you new password.  Must be between 8 and 128.");
   var numbers = confirm("Do you want numbers in your password?");
   var lowerCases = confirm("Do you want lowercases in your password?");
   var upperCases = confirm("Do you want uppercases in your password?");
