@@ -27,20 +27,17 @@ The password generator fulfills the below acceptance criteria:
 # Sample Code
 
 
-  // loop getting random characters
-  for (let i = 0; i < (parseInt(passwordLength) - minimumCount); i++) {
-    var randomNumberPicked = Math.floor(Math.random() * 4);
+    getLowerCases: function() {
+      return String.fromCharCode(Math.floor(Math.random() * 26 + 97));
+    },
 
-    randomPasswordGenerated += randomNumberPicked;
+    getUpperCases: function() {
+      return String.fromCharCode(Math.floor(Math.random() * 26 + 65));
+    },
 
-  }
-
-  // to make sure characters are added to the password
-  randomPasswordGenerated += minimumNumbers;
-  randomPasswordGenerated += minimumLowerCases;
-  randomPasswordGenerated += minimumUpperCases;
-  randomPasswordGenerated += minimumSpecialCharacters;
-  return randomPasswordGenerated;
+    getSpecialCharacters: function() {
+      return specialCharacters[Math.floor(Math.random() * specialCharacters.length)]
+ 
   
   
  # Installation
