@@ -1,7 +1,7 @@
 # PasswordGenerator
 
 # Synopsis
-This is a random password generator that generates an output based on user defined inputs. The end password generated is between 8 and 128 characters in length. 
+This is a random password generator that generates an output based on user defined inputs. The end password generated is between 8 and 128 characters in length. This program is built using Javascript (event listener to listen to button click, functions, arrays, for loop, if statemetns and math random and math floor functions. 
 
 # User Story
 AS AN employee with access to sensitive data
@@ -23,3 +23,4 @@ The password generator fulfills the below acceptance criteria:
 * All user input is validated
 * The resultant password mataches the user criteria 
 * The resultant password is written to the page 
+
