@@ -24,7 +24,7 @@ The password generator fulfills the below acceptance criteria:
 * The resultant password mataches the user criteria 
 * The resultant password is written to the page 
 
-**Sample Code**
+# Sample Code
 
 
   // loop getting random characters
@@ -43,7 +43,7 @@ The password generator fulfills the below acceptance criteria:
   return randomPasswordGenerated;
   
   
-  *Installation**
+ # Installation
 To use this portfolio, log into your GitHub account (if you don’t have a GitHub user profile, create one at https://github.com/join) and open this link in your browser: https://github.com/natashagils/PasswordGenerator. Then click on the "Fork" button at the top right corner and wait until the repo is forked. 
 
 
